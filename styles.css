@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+*{
+	text-align:left;
+}
+form{
+	width:200px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	line-height:30px;
+}
