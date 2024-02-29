@@ -3,9 +3,8 @@ let ageInput = document.getElementById("age");
 let nameInput = document.getElementById("name");
 let button = document.getElementById("btn");
 
-
 button.addEventListener("click", (e) => {
-	  let age = parseInt(ageInput.value);
+	  let age = ageInput.value;
       let name = nameInput.value;
 	e.preventDefault();
 	let promise = new Promise((resolve, reject) => {
